@@ -1,12 +1,16 @@
-import style from './page.module.css';
+import styles from './page.module.css';
+import Image from 'next/image';
 
 export default function Home() {
   const name = "世の中";
 
   return (
-    <div>
-      <h1 className={style.title}>テクノロジーの力で{name}を変える</h1>
-      <p className={style.description}>私たちのは市場をリードしているグローバルテックカンパニーです。</p>
-    </div>
+    <section className={styles.top}>
+      <div>
+        <h1 className={styles.title}>テクノロジーの力で{name}を変える</h1>
+        <p className={styles.description}>私たちのは市場をリードしているグローバルテックカンパニーです。</p>
+      </div>
+      <Image className={styles.bgimg} src="/img-mv.jpg" alt="" width={4000} height={1200} />
+    </section>
   )
 }
