@@ -1,5 +1,8 @@
-.list + .list {
-  border-top: 1px solid var(--color-border-light );
+.list {
+  border-bottom: 1px solid var(--color-border-light);
+}
+.list:last-child {
+  border-bottom: none;
 }
 
 .link {
@@ -32,7 +35,6 @@
     display: block;
     padding: 16px 0;
   }
-
   .image {
     display: none;
   }

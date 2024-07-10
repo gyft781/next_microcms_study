@@ -1,5 +1,5 @@
 export type Category = {
-  name: string
+  name: string;
 }
 
 export type News = {
@@ -9,5 +9,5 @@ export type News = {
     name: string;
   };
   publishedAt: string;
-  createAt: string;
-}
+  createdAt: string;
+};

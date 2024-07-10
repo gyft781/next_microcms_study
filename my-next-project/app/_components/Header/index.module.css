@@ -1,10 +1,10 @@
 .header {
+  position: absolute;
+  padding: 16px 24px 8px;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 1000;
-  position: absolute;
-  padding: 16px 24px 8px;
   width: 100%;
 }
 
@@ -13,8 +13,8 @@
 }
 
 .logo {
-  width: auto;
   height: 24px;
+  width: auto;
 }
 
 @media (max-width: 640px) {

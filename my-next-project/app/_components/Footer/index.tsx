@@ -1,6 +1,6 @@
 import styles from './index.module.css';
 
-export default function Footer () {
+export default function Footer() {
   return (
     <footer className={styles.footer}>
       <nav className={styles.nav}>
@@ -16,7 +16,7 @@ export default function Footer () {
           </li>
         </ul>
       </nav>
-      <p className={styles.cr}>© SIMPLE. ALL RIGHTS RESERVED 2024</p>
+      <p className={styles.cr}>© SIMPLE. All Rights Reserved 2024</p>
     </footer>
-  )
+  );
 }
