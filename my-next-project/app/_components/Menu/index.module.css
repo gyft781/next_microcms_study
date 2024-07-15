@@ -16,8 +16,10 @@
   .nav.open {
     display: block;
     position: fixed;
-    inset: 0;
-    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: var(--color-bg-painted);
     color: var(--color-text-unpainted);
     padding: 24px 16px;
@@ -25,7 +27,7 @@
 
   .items {
     flex-direction: column;
-    gap: 16px
+    gap: 24px;
   }
 
   .button {
